@@ -1,0 +1,21 @@
+{
+  "name": "chatapp-part-one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.4.18",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
